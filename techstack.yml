@@ -1,0 +1,141 @@
+repo_name: vladdou/ui-state-sync
+report_id: 5e3066a3b72622cbbce02a10272cc035
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-26T05:32:10+00:00'
+requested_by: gimenete
+provider: github
+branch: master
+detected_tools_count: 10
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/vladdou/ui-state-sync
+  detection_source: Repo Metadata
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 6.26.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/vladdou/ui-state-sync/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alberto Gimeno
+  last_updated_on: 2018-03-27 16:14:02.000000000 Z
+- name: Browserify
+  description: Browser-side require() the node.js way
+  website_url: http://browserify.org/
+  version: 16.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/849/9esmqty2.png
+  detection_source_url: https://github.com/vladdou/ui-state-sync/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alberto Gimeno
+  last_updated_on: 2018-03-27 16:14:02.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/vladdou/ui-state-sync
+  detection_source: Repo Metadata
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/vladdou/ui-state-sync/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Alberto Gimeno
+  last_updated_on: 2018-03-27 16:14:02.000000000 Z
+- name: babel-core
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/babel-core
+  version: 6.26.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15798/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/vladdou/ui-state-sync/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alberto Gimeno
+  last_updated_on: 2018-03-27 16:14:02.000000000 Z
+- name: babel-plugin-transform-react-jsx
+  description: Turn JSX into React function calls
+  package_url: https://www.npmjs.com/babel-plugin-transform-react-jsx
+  version: 6.24.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16106/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
+  detection_source_url: https://github.com/vladdou/ui-state-sync/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alberto Gimeno
+  last_updated_on: 2018-03-27 16:14:02.000000000 Z
+- name: babelify
+  description: Babel browserify transform
+  package_url: https://www.npmjs.com/babelify
+  version: 8.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15993/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/vladdou/ui-state-sync/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alberto Gimeno
+  last_updated_on: 2018-03-27 16:14:02.000000000 Z
+- name: virtual-dom
+  description: A batched diff-based DOM rendering strategy
+  package_url: https://www.npmjs.com/virtual-dom
+  version: 2.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17611/default_2b5fe3dc5bfc4e83a84162459ff612ac6febd61a.png
+  detection_source_url: https://github.com/vladdou/ui-state-sync/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alberto Gimeno
+  last_updated_on: 2018-03-27 16:14:02.000000000 Z
+- name: watchify
+  description: Watch mode for browserify builds
+  package_url: https://www.npmjs.com/watchify
+  version: 3.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16087/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
+  detection_source_url: https://github.com/vladdou/ui-state-sync/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alberto Gimeno
+  last_updated_on: 2018-03-27 16:14:02.000000000 Z
